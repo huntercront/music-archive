@@ -28,7 +28,7 @@
  if (document.querySelector('.hero-slider')) {
      var l = new Loader();
      l.require([
-             "../js/slider.js"
+             "./js/slider.js"
 
          ],
          function() {
@@ -113,7 +113,7 @@
  if (document.querySelector('.music-player')) {
      var m = new Loader();
      m.require([
-             "../js/green-audio-player.js"
+             "./js/green-audio-player.js"
          ],
          function() {
              GreenAudioPlayer.init({
